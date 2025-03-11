@@ -18,6 +18,16 @@ h4{
     font-size: 30px;
 }
 
+button{
+    border: 5px solid;
+    border-radius: 5px;
+    display: block;
+    font-size: 24px;
+    margin: 0 auto;
+    padding: 10px 15px;
+    /*transition: all 150ms ease-in-out;*/
+}
+
 footer{
     background-color: rgb(225, 243, 250);
 }
@@ -111,6 +121,20 @@ footer{
 
 .rightbox{
     margin-left: 18px ;
+}
+
+.theme-button{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    margin: 0 auto;
+    padding: 10px 10px;
+
+}
+
+.theme-button:hover{
+    color: black;
+    background-color: rgb(191, 146, 146);
 }
 
 
