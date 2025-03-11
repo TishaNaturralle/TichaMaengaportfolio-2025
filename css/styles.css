@@ -6,6 +6,24 @@ h1{
     color: black;
 }
 
+h3{
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+h4{
+    text-align: center;
+    color: rgb(109, 130, 133);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+footer{
+    background-color: rgb(225, 243, 250);
+}
+
+
+
 .container{
     
     display: flex;
@@ -55,17 +73,47 @@ h1{
 }
 
 .dotted-right{
-    border-right: 5px dotted black;
+    border-right: 5px dotted rgb(193, 141, 141);
     height: 100px;
 }  
 
 .dotted-bottom {
-    border-bottom: 5px dotted black; /* Create bottom dotted line */
+    border-bottom: 5px dotted rgb(240, 182, 182); /* Create bottom dotted line */
     width: 100px; /* Adjust width for visual effect */
     position: absolute;
     top: 100%; /* Align below the image */
     left: 0; /* Keep aligned to the left */
 }
+
+
+
+.grid{
+    background-color: rgb(225, 243, 250);
+    display: grid;
+    margin: 15px 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.grid:img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.project{
+    box-shadow: none;
+    max-width: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.rightbox{
+    margin-left: 18px ;
+}
+
+
 
 
 
