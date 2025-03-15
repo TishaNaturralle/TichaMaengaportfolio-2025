@@ -17,9 +17,11 @@ h3{
 
 h4{
     text-align: center;
-    color: rgb(109, 130, 133);
+    color: rgb(64, 73, 74);
     font-weight: bold;
     font-size: 30px;
+    margin-top: 18px;
+    margin-bottom: 10px;
 }
 
 *{
@@ -39,7 +41,11 @@ button{
 }
 
 footer{
-    background-color: rgb(9, 171, 235);
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    text-align: center;
 }
 
 section{
