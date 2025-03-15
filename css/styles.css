@@ -126,12 +126,21 @@ section{
 .menu ul{
     display:flex;
     list-style: none;
+   
+   
 }
 
 .menu ul li{
    color: white;
-   margin-left: 20px;
+   font-size: 24px;
+   margin-left: 40px;
    text-decoration: none;
+
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
 }
 
 .logo{
