@@ -6,6 +6,10 @@ h1{
     color: black;
 }
 
+h2{
+    margin-bottom: 15px;
+}
+
 h3{
     font-size: 20px;
     margin-left: 30px;
@@ -16,6 +20,12 @@ h4{
     color: rgb(109, 130, 133);
     font-weight: bold;
     font-size: 30px;
+}
+
+*{
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
 }
 
 button{
@@ -29,18 +39,14 @@ button{
 }
 
 footer{
-    background-color: rgb(225, 243, 250);
+    background-color: rgb(9, 171, 235);
+}
+
+section{
+    background-color:rgb(225, 243, 250); 
 }
 
 
-
-.container{
-    
-    display: flex;
-    margin-left: 50px;
-    margin-right: 50px;
-    position: relative;
-}
 
 .box{
     box-sizing: border-box;
@@ -63,14 +69,20 @@ footer{
     background-color: rgb(220, 183, 183);
 }
 
-.profile-img {
-    position: absolute;
-    top: -50px; /* Adjust this value as needed */
-    left: 50%;
-    transform: translateX(-50%);
-    width: 300px; /* Set desired width of the image */
-    height: auto; /* Maintain aspect ratio */
+.burger{
+    display: none;
+    font-size: 30px;
 }
+
+.container{
+    
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+}
+
+
 
 .dotted-lines{
     position: absolute;
@@ -97,6 +109,7 @@ footer{
 
 
 
+
 .grid{
     background-color: rgb(225, 243, 250);
     display: grid;
@@ -109,6 +122,42 @@ footer{
     width: 100%;
     border-radius: 8px;
 }
+
+.menu ul{
+    display:flex;
+    list-style: none;
+}
+
+.menu ul li{
+   color: white;
+   margin-left: 20px;
+   text-decoration: none;
+}
+
+.logo{
+    color: white;
+    font-size: 24px;
+}
+
+.navbar{
+    align-items: center;
+    background-color: #b4acac;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    padding: 10px 20px;
+}
+
+.profile-img {
+    position: absolute;
+    top: -50px; /* Adjust this value as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px; /* Set desired width of the image */
+    height: auto; /* Maintain aspect ratio */
+}
+
 
 .project{
     box-shadow: none;
@@ -124,6 +173,7 @@ footer{
 }
 
 .theme-button{
+    border-radius: 10px;
     background-color: black;
     color: white;
     font-size: 15px;
@@ -134,7 +184,29 @@ footer{
 
 .theme-button:hover{
     color: black;
-    background-color: rgb(191, 146, 146);
+    background-color: rgb(220, 183, 183);
+}
+
+@media (max-width: 768px){
+    
+    .burger {
+        display: block;
+    }
+    .menu ul{
+        background-color: #333;
+        border-radius: 5px;
+        display: none;
+        flex-direction: column;
+        padding: 1opx 0;
+        position: absolute;
+        right: 20px;
+        top: 60px;   
+    }
+
+    .menu.active ul {
+        display: flex;
+    }
+
 }
 
 
