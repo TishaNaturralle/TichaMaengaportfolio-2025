@@ -88,7 +88,38 @@ section{
     position: relative;
 }
 
+.dark{
+    background-color: black;
+    color: white;
+}
 
+.dark .container {
+ background-color: grey;
+}
+
+.dark a {
+    color:plum;
+}
+
+.dark .box2{
+    background-color: rgb(92, 84, 84);
+}
+
+.dark .box1{
+    background-color: rgb(164, 158, 158);
+}
+
+ .dark .profile-img{
+    opacity: 0.9;
+ }
+
+ .dark .grid{
+    background-color: rgb(147, 145, 145);
+ }
+
+ .dark section{
+    background-color: #333;
+ }
 
 .dotted-lines{
     position: absolute;
@@ -166,7 +197,9 @@ section{
 }
 
 .profile-img {
+    
     position: absolute;
+    transition: opacity 0.3s ease;
     top: -50px; /* Adjust this value as needed */
     left: 50%;
     transform: translateX(-50%);
